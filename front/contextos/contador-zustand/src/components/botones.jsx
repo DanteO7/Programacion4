@@ -1,4 +1,4 @@
-import useCountStore from "../store/use-store";
+import { useCountStore } from "../store/use-store";
 
 export default function Botones() {
   const { aumentar, decrementar, resetear } = useCountStore();
