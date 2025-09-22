@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\introduccion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70618F19-5585-4591-AE7B-4AD1011A3FA6}|introduccion\\introduccion.csproj|c:\\users\\lara\\onedrive\\escritorio\\programacion4\\programacion4\\back\\introduccion\\introduccion\\services\\cineservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70618F19-5585-4591-AE7B-4AD1011A3FA6}|introduccion\\introduccion.csproj|solutionrelative:introduccion\\services\\cineservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70618F19-5585-4591-AE7B-4AD1011A3FA6}|introduccion\\introduccion.csproj|c:\\users\\lara\\onedrive\\escritorio\\programacion4\\programacion4\\back\\introduccion\\introduccion\\controllers\\cinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70618F19-5585-4591-AE7B-4AD1011A3FA6}|introduccion\\introduccion.csproj|solutionrelative:introduccion\\controllers\\cinecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70618F19-5585-4591-AE7B-4AD1011A3FA6}|introduccion\\introduccion.csproj|c:\\users\\lara\\onedrive\\escritorio\\programacion4\\programacion4\\back\\introduccion\\introduccion\\utils\\httpresponseerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70618F19-5585-4591-AE7B-4AD1011A3FA6}|introduccion\\introduccion.csproj|solutionrelative:introduccion\\utils\\httpresponseerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70618F19-5585-4591-AE7B-4AD1011A3FA6}|introduccion\\introduccion.csproj|c:\\users\\lara\\onedrive\\escritorio\\programacion4\\programacion4\\back\\introduccion\\introduccion\\utils\\httpmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70618F19-5585-4591-AE7B-4AD1011A3FA6}|introduccion\\introduccion.csproj|solutionrelative:introduccion\\utils\\httpmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CineServices.cs",
+              "DocumentMoniker": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\introduccion\\introduccion\\Services\\CineServices.cs",
+              "RelativeDocumentMoniker": "introduccion\\Services\\CineServices.cs",
+              "ToolTip": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\introduccion\\introduccion\\Services\\CineServices.cs",
+              "RelativeToolTip": "introduccion\\Services\\CineServices.cs",
+              "ViewState": "AgIAADYAAAAAAICkt9MjwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T19:36:04.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HttpResponseError.cs",
+              "DocumentMoniker": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\introduccion\\introduccion\\Utils\\HttpResponseError.cs",
+              "RelativeDocumentMoniker": "introduccion\\Utils\\HttpResponseError.cs",
+              "ToolTip": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\introduccion\\introduccion\\Utils\\HttpResponseError.cs",
+              "RelativeToolTip": "introduccion\\Utils\\HttpResponseError.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T19:27:04.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CineController.cs",
+              "DocumentMoniker": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\introduccion\\introduccion\\Controllers\\CineController.cs",
+              "RelativeDocumentMoniker": "introduccion\\Controllers\\CineController.cs",
+              "ToolTip": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\introduccion\\introduccion\\Controllers\\CineController.cs",
+              "RelativeToolTip": "introduccion\\Controllers\\CineController.cs",
+              "ViewState": "AgIAAAkAAAAAAABQjI4SwGYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T19:21:54.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HttpMessage.cs",
+              "DocumentMoniker": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\introduccion\\introduccion\\Utils\\HttpMessage.cs",
+              "RelativeDocumentMoniker": "introduccion\\Utils\\HttpMessage.cs",
+              "ToolTip": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\introduccion\\introduccion\\Utils\\HttpMessage.cs",
+              "RelativeToolTip": "introduccion\\Utils\\HttpMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T19:17:12.797Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
