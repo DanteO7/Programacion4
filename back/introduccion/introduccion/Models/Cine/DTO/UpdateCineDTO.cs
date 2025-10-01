@@ -2,16 +2,14 @@
 
 namespace introduccion.Models.Cine.DTO
 {
-    public class CreateCineDTO
+    public class UpdateCineDTO
     {
-        [Required(ErrorMessage = "Este campo es requerido")]
         [MaxLength(30, ErrorMessage = "El nombre no puede contener mas de 30 caracteres")]
-        public string Name { get; set; } = null!;
+        public string? Name { get; set; } = null!;
 
         [MaxLength(255, ErrorMessage = "La descripcion no puede contener mas de 255 caracteres")]
         public string? Description { get; set; }
 
-        [Required(ErrorMessage = "Este campo es requerido")]
-        public bool IsOpen { get; set; }
+        public bool? IsOpen { get; set; }
     }
 }

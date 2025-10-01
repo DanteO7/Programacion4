@@ -1,4 +1,5 @@
-﻿using introduccion.Models.Cine;
+﻿using AutoMapper;
+using introduccion.Models.Cine;
 using introduccion.Models.Cine.DTO;
 using introduccion.Utils;
 using System.Net;
@@ -10,10 +11,17 @@ namespace introduccion.Servicios
         List<CinesDTO> GetAll();
         Cine GetOneById(int id);
         Cine CreateOne(CreateCineDTO createCineDTO);
-        void DeleteOne(int id);
+        void DeleteOneById(int id);
+        Cine UpdateOneById(int id, UpdateCineDTO updateCineDTO);
     }
     public class CineServices : ICineServices
     {
+        private readonly IMapper _mapper;
+        public CineServices(IMapper mapper)
+        {
+            _mapper = mapper;
+        }
+
         private static List<Cine> _cines = new() {
             new() { Id=1,Name="Cinemark",IsOpen=true },
             new(){ Id=2,Name="ShowCase",IsOpen=true},
@@ -21,60 +29,46 @@ namespace introduccion.Servicios
             new(){ Id=4,Name="Hoyts",IsOpen=true}
         };
         
-        public List<CinesDTO> GetAll()
+        private Cine GetOneByIdOrException(int id)
         {
-            return _cines.Select(c =>
-            {
-                return new CinesDTO() { Id = c.Id, Name = c.Name };
-            }).ToList();
-        }
-
-        public Cine GetOneById(int id)
-        {
-            var cine = _cines.FirstOrDefault(c=> c.Id == id);
-            if (cine != null)
-            {
-                return cine;
-            }
-            else
+            var cine = _cines.FirstOrDefault(c => c.Id == id);
+            if (cine == null)
             {
                 throw new HttpResponseError(HttpStatusCode.NotFound, $"No se encontro el cine con ID = {id}");
             }
+            return cine;
         }
+
+        public List<CinesDTO> GetAll() => _mapper.Map<List<CinesDTO>>(_cines);
+
+        public Cine GetOneById(int id) => GetOneByIdOrException(id);
 
         public Cine CreateOne(CreateCineDTO createCineDTO)
         {
             int lastId = _cines.Last().Id;
 
-            if(createCineDTO.Name.Trim().Length > 30)
-            {
-                throw new HttpResponseError(HttpStatusCode.BadRequest, "El nombre no puede contener mas de 30 carateres");
-            }
+            var cine = _mapper.Map<Cine>(createCineDTO);
 
-            var cine = new Cine()
-            {
-                Id = lastId + 1,
-                Name = createCineDTO.Name,
-                Description = createCineDTO.Description,
-                IsOpen = createCineDTO.IsOpen,
-            };
+            cine.Id = lastId + 1;
 
             _cines.Add(cine);
 
             return cine;
         }
 
-        public void DeleteOne(int id)
+        public void DeleteOneById(int id)
         {
-            var cine = _cines.FirstOrDefault(c => c.Id == id);
-            if (cine != null)
-            {
-                _cines.Remove(cine);
-            }
-            else
-            {
-                throw new HttpResponseError(HttpStatusCode.NotFound, $"No se encontro el cine con ID = {id}");
-            }
+            var cine = GetOneByIdOrException(id);
+            _cines.Remove(cine);
+        }
+
+        public Cine UpdateOneById(int id, UpdateCineDTO updateCineDTO)
+        {
+            var cine = GetOneByIdOrException(id);
+
+            var cineMapped = _mapper.Map(updateCineDTO, cine);
+
+            return cineMapped;
         }
     }
 }

@@ -34,3 +34,4 @@ C:\Users\lara\OneDrive\Escritorio\programacion4\Programacion4\back\introduccion\
 C:\Users\lara\OneDrive\Escritorio\programacion4\Programacion4\back\introduccion\introduccion\obj\Debug\net8.0\introduccion.pdb
 C:\Users\lara\OneDrive\Escritorio\programacion4\Programacion4\back\introduccion\introduccion\obj\Debug\net8.0\introduccion.genruntimeconfig.cache
 C:\Users\lara\OneDrive\Escritorio\programacion4\Programacion4\back\introduccion\introduccion\obj\Debug\net8.0\ref\introduccion.dll
+C:\Users\lara\OneDrive\Escritorio\programacion4\Programacion4\back\introduccion\introduccion\bin\Debug\net8.0\AutoMapper.dll

@@ -1,4 +1,7 @@
+using introduccion.Config;
 using introduccion.Servicios;
+using introduccion.Utils;
+using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,9 +12,25 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.Configure<ApiBehaviorOptions>(options =>
+{
+    options.InvalidModelStateResponseFactory = context =>
+    {
+        var errors = context.ModelState
+        .Where(x => x.Value?.Errors.Count > 0)
+        .ToDictionary(kvp => kvp.Key, kvp => kvp.Value?.Errors.Select(e => e.ErrorMessage).ToArray() ?? Array.Empty<string>());
+
+        return new BadRequestObjectResult(new ValidationErrorResponse(errors));
+    };
+});
+
 // Services
 
 builder.Services.AddScoped<ICineServices, CineServices>();
+
+// Mapper
+
+builder.Services.AddAutoMapper(typeof(Mapping));
 
 
 var app = builder.Build();

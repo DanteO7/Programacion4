@@ -59,7 +59,7 @@ namespace introduccion.Controllers
 
         [HttpPost]
         [ProducesResponseType(type: typeof(Cine), StatusCodes.Status201Created)]
-        [ProducesResponseType(type: typeof(HttpMessage), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(type: typeof(ValidationErrorResponse), StatusCodes.Status400BadRequest)]
         [ProducesResponseType(type: typeof(HttpMessage), StatusCodes.Status500InternalServerError)]
 
         public ActionResult<Cine> CreateOne([FromBody] CreateCineDTO createCineDTO)
@@ -84,12 +84,34 @@ namespace introduccion.Controllers
         [ProducesResponseType(type: typeof(HttpMessage), StatusCodes.Status404NotFound)]
         [ProducesResponseType(type: typeof(HttpMessage), StatusCodes.Status500InternalServerError)]
 
-        public ActionResult DeleteOne(int id)
+        public ActionResult DeleteOneById(int id)
         {
             try
             {
-                _services.DeleteOne(id);
+                _services.DeleteOneById(id);
                 return Ok(new HttpMessage($"Cine con ID = {id} elliminado"));
+            }
+            catch (HttpResponseError ex)
+            {
+                return StatusCode((int)ex.StatusCode, new HttpMessage(ex.Message));
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, new HttpMessage(ex.Message));
+            }
+        }
+
+        [HttpPut("{id}")]
+        [ProducesResponseType(type: typeof(Cine), StatusCodes.Status200OK)]
+        [ProducesResponseType(type: typeof(ValidationErrorResponse), StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(type: typeof(HttpMessage), StatusCodes.Status404NotFound)]
+        [ProducesResponseType(type: typeof(HttpMessage), StatusCodes.Status500InternalServerError)]
+        public ActionResult<Cine> UpdateOneById(int id, [FromBody]UpdateCineDTO updateCineDTO)
+        {
+            try
+            {
+                var cine = _services.UpdateOneById(id, updateCineDTO);
+                return Ok(cine);
             }
             catch (HttpResponseError ex)
             {
