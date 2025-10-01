@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/pancho": {
+    "/api/panchos": {
       "get": {
         "tags": [
           "Pancho"
@@ -43,7 +43,7 @@
         }
       }
     },
-    "/api/pancho/{id}": {
+    "/api/panchos/{id}": {
       "get": {
         "tags": [
           "Pancho"
@@ -103,7 +103,7 @@
         }
       }
     },
-    "/api/pancho/aderezo/{condiment}": {
+    "/api/panchos/aderezo/{condiment}": {
       "get": {
         "tags": [
           "Pancho"

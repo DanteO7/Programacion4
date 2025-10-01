@@ -15,6 +15,13 @@ builder.Services.AddScoped<IPanchoServices, PanchoServices>();
 
 var app = builder.Build();
 
+app.UseCors(opts =>
+{
+    opts.AllowAnyMethod();
+    opts.AllowAnyOrigin();
+    opts.AllowAnyHeader();
+});
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

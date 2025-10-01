@@ -8,7 +8,7 @@ using Pancheria.Utils;
 
 namespace Pancheria.Controllers
 {
-    [Route("api/pancho")]
+    [Route("api/panchos")]
     [ApiController]
     public class PanchoController : ControllerBase
     {

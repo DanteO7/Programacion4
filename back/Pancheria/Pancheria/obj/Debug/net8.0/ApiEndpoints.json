@@ -2,7 +2,7 @@
   {
     "ContainingType": "Pancheria.Controllers.PanchoController",
     "Method": "GetAll",
-    "RelativePath": "api/pancho",
+    "RelativePath": "api/panchos",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -22,7 +22,7 @@
   {
     "ContainingType": "Pancheria.Controllers.PanchoController",
     "Method": "GetOneById",
-    "RelativePath": "api/pancho/{id}",
+    "RelativePath": "api/panchos/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -57,7 +57,7 @@
   {
     "ContainingType": "Pancheria.Controllers.PanchoController",
     "Method": "GetAllByCondiment",
-    "RelativePath": "api/pancho/aderezo/{condiment}",
+    "RelativePath": "api/panchos/aderezo/{condiment}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
