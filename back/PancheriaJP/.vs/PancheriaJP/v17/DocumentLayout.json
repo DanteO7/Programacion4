@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\PancheriaJP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE119149-A89F-4433-A59C-A026E948394E}|PancheriaJP\\PancheriaJP.csproj|c:\\users\\lara\\onedrive\\escritorio\\programacion4\\programacion4\\back\\pancheriajp\\pancheriajp\\controllers\\panchocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE119149-A89F-4433-A59C-A026E948394E}|PancheriaJP\\PancheriaJP.csproj|solutionrelative:pancheriajp\\controllers\\panchocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE119149-A89F-4433-A59C-A026E948394E}|PancheriaJP\\PancheriaJP.csproj|c:\\users\\lara\\onedrive\\escritorio\\programacion4\\programacion4\\back\\pancheriajp\\pancheriajp\\services\\ingredienteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE119149-A89F-4433-A59C-A026E948394E}|PancheriaJP\\PancheriaJP.csproj|solutionrelative:pancheriajp\\services\\ingredienteservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE119149-A89F-4433-A59C-A026E948394E}|PancheriaJP\\PancheriaJP.csproj|c:\\users\\lara\\onedrive\\escritorio\\programacion4\\programacion4\\back\\pancheriajp\\pancheriajp\\services\\panchoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE119149-A89F-4433-A59C-A026E948394E}|PancheriaJP\\PancheriaJP.csproj|solutionrelative:pancheriajp\\services\\panchoservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE119149-A89F-4433-A59C-A026E948394E}|PancheriaJP\\PancheriaJP.csproj|c:\\users\\lara\\onedrive\\escritorio\\programacion4\\programacion4\\back\\pancheriajp\\pancheriajp\\models\\pancho\\dto\\updatepanchodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE119149-A89F-4433-A59C-A026E948394E}|PancheriaJP\\PancheriaJP.csproj|solutionrelative:pancheriajp\\models\\pancho\\dto\\updatepanchodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE119149-A89F-4433-A59C-A026E948394E}|PancheriaJP\\PancheriaJP.csproj|c:\\users\\lara\\onedrive\\escritorio\\programacion4\\programacion4\\back\\pancheriajp\\pancheriajp\\models\\pancho\\dto\\createpanchodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE119149-A89F-4433-A59C-A026E948394E}|PancheriaJP\\PancheriaJP.csproj|solutionrelative:pancheriajp\\models\\pancho\\dto\\createpanchodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE119149-A89F-4433-A59C-A026E948394E}|PancheriaJP\\PancheriaJP.csproj|c:\\users\\lara\\onedrive\\escritorio\\programacion4\\programacion4\\back\\pancheriajp\\pancheriajp\\config\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE119149-A89F-4433-A59C-A026E948394E}|PancheriaJP\\PancheriaJP.csproj|solutionrelative:pancheriajp\\config\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE119149-A89F-4433-A59C-A026E948394E}|PancheriaJP\\PancheriaJP.csproj|c:\\users\\lara\\onedrive\\escritorio\\programacion4\\programacion4\\back\\pancheriajp\\pancheriajp\\models\\pancho\\dto\\panchodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE119149-A89F-4433-A59C-A026E948394E}|PancheriaJP\\PancheriaJP.csproj|solutionrelative:pancheriajp\\models\\pancho\\dto\\panchodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE119149-A89F-4433-A59C-A026E948394E}|PancheriaJP\\PancheriaJP.csproj|c:\\users\\lara\\onedrive\\escritorio\\programacion4\\programacion4\\back\\pancheriajp\\pancheriajp\\repositories\\panchorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE119149-A89F-4433-A59C-A026E948394E}|PancheriaJP\\PancheriaJP.csproj|solutionrelative:pancheriajp\\repositories\\panchorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE119149-A89F-4433-A59C-A026E948394E}|PancheriaJP\\PancheriaJP.csproj|c:\\users\\lara\\onedrive\\escritorio\\programacion4\\programacion4\\back\\pancheriajp\\pancheriajp\\models\\pancho\\pancho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE119149-A89F-4433-A59C-A026E948394E}|PancheriaJP\\PancheriaJP.csproj|solutionrelative:pancheriajp\\models\\pancho\\pancho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IngredienteServices.cs",
+              "DocumentMoniker": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\PancheriaJP\\PancheriaJP\\Services\\IngredienteServices.cs",
+              "RelativeDocumentMoniker": "PancheriaJP\\Services\\IngredienteServices.cs",
+              "ToolTip": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\PancheriaJP\\PancheriaJP\\Services\\IngredienteServices.cs",
+              "RelativeToolTip": "PancheriaJP\\Services\\IngredienteServices.cs",
+              "ViewState": "AgIAADUAAAAAAACAQEIUwEcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:25:13.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PanchoController.cs",
+              "DocumentMoniker": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\PancheriaJP\\PancheriaJP\\Controllers\\PanchoController.cs",
+              "RelativeDocumentMoniker": "PancheriaJP\\Controllers\\PanchoController.cs",
+              "ToolTip": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\PancheriaJP\\PancheriaJP\\Controllers\\PanchoController.cs",
+              "RelativeToolTip": "PancheriaJP\\Controllers\\PanchoController.cs",
+              "ViewState": "AgIAAEgAAAAAAHR3hfAtwDwAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:09:31.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PanchoServices.cs",
+              "DocumentMoniker": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\PancheriaJP\\PancheriaJP\\Services\\PanchoServices.cs",
+              "RelativeDocumentMoniker": "PancheriaJP\\Services\\PanchoServices.cs",
+              "ToolTip": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\PancheriaJP\\PancheriaJP\\Services\\PanchoServices.cs",
+              "RelativeToolTip": "PancheriaJP\\Services\\PanchoServices.cs",
+              "ViewState": "AgIAADMAAAAAAADRf2kewDYAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T17:15:19.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\PancheriaJP\\PancheriaJP\\Config\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "PancheriaJP\\Config\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\PancheriaJP\\PancheriaJP\\Config\\ApplicationDbContext.cs",
+              "RelativeToolTip": "PancheriaJP\\Config\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA3wBIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T17:28:55.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdatePanchoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\PancheriaJP\\PancheriaJP\\Models\\Pancho\\DTO\\UpdatePanchoDTO.cs",
+              "RelativeDocumentMoniker": "PancheriaJP\\Models\\Pancho\\DTO\\UpdatePanchoDTO.cs",
+              "ToolTip": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\PancheriaJP\\PancheriaJP\\Models\\Pancho\\DTO\\UpdatePanchoDTO.cs",
+              "RelativeToolTip": "PancheriaJP\\Models\\Pancho\\DTO\\UpdatePanchoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T18:00:10.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreatePanchoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\PancheriaJP\\PancheriaJP\\Models\\Pancho\\DTO\\CreatePanchoDTO.cs",
+              "RelativeDocumentMoniker": "PancheriaJP\\Models\\Pancho\\DTO\\CreatePanchoDTO.cs",
+              "ToolTip": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\PancheriaJP\\PancheriaJP\\Models\\Pancho\\DTO\\CreatePanchoDTO.cs",
+              "RelativeToolTip": "PancheriaJP\\Models\\Pancho\\DTO\\CreatePanchoDTO.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAEAAAwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T17:43:53.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Pancho.cs",
+              "DocumentMoniker": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\PancheriaJP\\PancheriaJP\\Models\\Pancho\\Pancho.cs",
+              "RelativeDocumentMoniker": "PancheriaJP\\Models\\Pancho\\Pancho.cs",
+              "ToolTip": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\PancheriaJP\\PancheriaJP\\Models\\Pancho\\Pancho.cs",
+              "RelativeToolTip": "PancheriaJP\\Models\\Pancho\\Pancho.cs",
+              "ViewState": "AgIAAAkAAAAAAADUb+8bwA4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T17:25:04.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PanchoDTO.cs",
+              "DocumentMoniker": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\PancheriaJP\\PancheriaJP\\Models\\Pancho\\DTO\\PanchoDTO.cs",
+              "RelativeDocumentMoniker": "PancheriaJP\\Models\\Pancho\\DTO\\PanchoDTO.cs",
+              "ToolTip": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\PancheriaJP\\PancheriaJP\\Models\\Pancho\\DTO\\PanchoDTO.cs",
+              "RelativeToolTip": "PancheriaJP\\Models\\Pancho\\DTO\\PanchoDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T17:58:08.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PanchoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\PancheriaJP\\PancheriaJP\\Repositories\\PanchoRepository.cs",
+              "RelativeDocumentMoniker": "PancheriaJP\\Repositories\\PanchoRepository.cs",
+              "ToolTip": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\PancheriaJP\\PancheriaJP\\Repositories\\PanchoRepository.cs",
+              "RelativeToolTip": "PancheriaJP\\Repositories\\PanchoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T17:59:02.009Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
