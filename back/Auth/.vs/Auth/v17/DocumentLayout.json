@@ -3,12 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\Auth\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FB48AD38-9C24-4187-A2DA-C59C5E2245D0}|Auth\\Auth.csproj|c:\\users\\lara\\onedrive\\escritorio\\programacion4\\programacion4\\back\\auth\\auth\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB48AD38-9C24-4187-A2DA-C59C5E2245D0}|Auth\\Auth.csproj|solutionrelative:auth\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FB48AD38-9C24-4187-A2DA-C59C5E2245D0}|Auth\\Auth.csproj|c:\\users\\lara\\onedrive\\escritorio\\programacion4\\programacion4\\back\\auth\\auth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB48AD38-9C24-4187-A2DA-C59C5E2245D0}|Auth\\Auth.csproj|solutionrelative:auth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FB48AD38-9C24-4187-A2DA-C59C5E2245D0}|Auth\\Auth.csproj|c:\\users\\lara\\onedrive\\escritorio\\programacion4\\programacion4\\back\\auth\\auth\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FB48AD38-9C24-4187-A2DA-C59C5E2245D0}|Auth\\Auth.csproj|solutionrelative:auth\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB48AD38-9C24-4187-A2DA-C59C5E2245D0}|Auth\\Auth.csproj|c:\\users\\lara\\onedrive\\escritorio\\programacion4\\programacion4\\back\\auth\\auth\\models\\role\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB48AD38-9C24-4187-A2DA-C59C5E2245D0}|Auth\\Auth.csproj|solutionrelative:auth\\models\\role\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB48AD38-9C24-4187-A2DA-C59C5E2245D0}|Auth\\Auth.csproj|c:\\users\\lara\\onedrive\\escritorio\\programacion4\\programacion4\\back\\auth\\auth\\utils\\filters\\authoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB48AD38-9C24-4187-A2DA-C59C5E2245D0}|Auth\\Auth.csproj|solutionrelative:auth\\utils\\filters\\authoperationfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB48AD38-9C24-4187-A2DA-C59C5E2245D0}|Auth\\Auth.csproj|c:\\users\\lara\\onedrive\\escritorio\\programacion4\\programacion4\\back\\auth\\auth\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB48AD38-9C24-4187-A2DA-C59C5E2245D0}|Auth\\Auth.csproj|solutionrelative:auth\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB48AD38-9C24-4187-A2DA-C59C5E2245D0}|Auth\\Auth.csproj|c:\\users\\lara\\onedrive\\escritorio\\programacion4\\programacion4\\back\\auth\\auth\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB48AD38-9C24-4187-A2DA-C59C5E2245D0}|Auth\\Auth.csproj|solutionrelative:auth\\services\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB48AD38-9C24-4187-A2DA-C59C5E2245D0}|Auth\\Auth.csproj|c:\\users\\lara\\onedrive\\escritorio\\programacion4\\programacion4\\back\\auth\\auth\\models\\user\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB48AD38-9C24-4187-A2DA-C59C5E2245D0}|Auth\\Auth.csproj|solutionrelative:auth\\models\\user\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB48AD38-9C24-4187-A2DA-C59C5E2245D0}|Auth\\Auth.csproj|c:\\users\\lara\\onedrive\\escritorio\\programacion4\\programacion4\\back\\auth\\auth\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FB48AD38-9C24-4187-A2DA-C59C5E2245D0}|Auth\\Auth.csproj|solutionrelative:auth\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB48AD38-9C24-4187-A2DA-C59C5E2245D0}|Auth\\Auth.csproj|c:\\users\\lara\\onedrive\\escritorio\\programacion4\\programacion4\\back\\auth\\auth\\services\\encoderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB48AD38-9C24-4187-A2DA-C59C5E2245D0}|Auth\\Auth.csproj|solutionrelative:auth\\services\\encoderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB48AD38-9C24-4187-A2DA-C59C5E2245D0}|Auth\\Auth.csproj|c:\\users\\lara\\onedrive\\escritorio\\programacion4\\programacion4\\back\\auth\\auth\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB48AD38-9C24-4187-A2DA-C59C5E2245D0}|Auth\\Auth.csproj|solutionrelative:auth\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB48AD38-9C24-4187-A2DA-C59C5E2245D0}|Auth\\Auth.csproj|c:\\users\\lara\\onedrive\\escritorio\\programacion4\\programacion4\\back\\auth\\auth\\auth.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FB48AD38-9C24-4187-A2DA-C59C5E2245D0}|Auth\\Auth.csproj|solutionrelative:auth\\auth.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB48AD38-9C24-4187-A2DA-C59C5E2245D0}|Auth\\Auth.csproj|c:\\users\\lara\\onedrive\\escritorio\\programacion4\\programacion4\\back\\auth\\auth\\utils\\httpmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB48AD38-9C24-4187-A2DA-C59C5E2245D0}|Auth\\Auth.csproj|solutionrelative:auth\\utils\\httpmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB48AD38-9C24-4187-A2DA-C59C5E2245D0}|Auth\\Auth.csproj|c:\\users\\lara\\onedrive\\escritorio\\programacion4\\programacion4\\back\\auth\\auth\\utils\\httpresponseerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB48AD38-9C24-4187-A2DA-C59C5E2245D0}|Auth\\Auth.csproj|solutionrelative:auth\\utils\\httpresponseerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,19 +71,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\Auth\\Auth\\Repositories\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "Auth\\Repositories\\RoleRepository.cs",
+              "ToolTip": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\Auth\\Auth\\Repositories\\RoleRepository.cs",
+              "RelativeToolTip": "Auth\\Repositories\\RoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T20:18:20.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\Auth\\Auth\\Models\\Role\\Role.cs",
+              "RelativeDocumentMoniker": "Auth\\Models\\Role\\Role.cs",
+              "ToolTip": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\Auth\\Auth\\Models\\Role\\Role.cs",
+              "RelativeToolTip": "Auth\\Models\\Role\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T20:13:40.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\Auth\\Auth\\Models\\User\\DTO\\LoginResponseDTO.cs",
+              "RelativeDocumentMoniker": "Auth\\Models\\User\\DTO\\LoginResponseDTO.cs",
+              "ToolTip": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\Auth\\Auth\\Models\\User\\DTO\\LoginResponseDTO.cs",
+              "RelativeToolTip": "Auth\\Models\\User\\DTO\\LoginResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T17:28:54.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthServices.cs",
+              "DocumentMoniker": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\Auth\\Auth\\Services\\AuthServices.cs",
+              "RelativeDocumentMoniker": "Auth\\Services\\AuthServices.cs",
+              "ToolTip": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\Auth\\Auth\\Services\\AuthServices.cs",
+              "RelativeToolTip": "Auth\\Services\\AuthServices.cs",
+              "ViewState": "AgIAACEAAAAAAAA/T5wiwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T17:45:19.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\Auth\\Auth\\Program.cs",
               "RelativeDocumentMoniker": "Auth\\Program.cs",
               "ToolTip": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\Auth\\Auth\\Program.cs",
               "RelativeToolTip": "Auth\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAEDyvlQkwBgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAABaKNMDwCQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-09T20:47:57.993Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-09T20:47:57.993Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\Auth\\Auth\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Auth\\Repositories\\UserRepository.cs",
@@ -44,6 +140,102 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-09T20:43:33.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AuthOperationFilter.cs",
+              "DocumentMoniker": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\Auth\\Auth\\Utils\\Filters\\AuthOperationFilter.cs",
+              "RelativeDocumentMoniker": "Auth\\Utils\\Filters\\AuthOperationFilter.cs",
+              "ToolTip": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\Auth\\Auth\\Utils\\Filters\\AuthOperationFilter.cs",
+              "RelativeToolTip": "Auth\\Utils\\Filters\\AuthOperationFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T19:38:52.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserServices.cs",
+              "DocumentMoniker": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\Auth\\Auth\\Services\\UserServices.cs",
+              "RelativeDocumentMoniker": "Auth\\Services\\UserServices.cs",
+              "ToolTip": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\Auth\\Auth\\Services\\UserServices.cs",
+              "RelativeToolTip": "Auth\\Services\\UserServices.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAABUAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T17:23:08.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EncoderServices.cs",
+              "DocumentMoniker": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\Auth\\Auth\\Services\\EncoderServices.cs",
+              "RelativeDocumentMoniker": "Auth\\Services\\EncoderServices.cs",
+              "ToolTip": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\Auth\\Auth\\Services\\EncoderServices.cs",
+              "RelativeToolTip": "Auth\\Services\\EncoderServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T18:26:05.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\Auth\\Auth\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Auth\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\Auth\\Auth\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Auth\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAYwD8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T18:07:40.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\Auth\\Auth\\appsettings.json",
+              "RelativeDocumentMoniker": "Auth\\appsettings.json",
+              "ToolTip": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\Auth\\Auth\\appsettings.json",
+              "RelativeToolTip": "Auth\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-14T18:05:52.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Auth.csproj",
+              "DocumentMoniker": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\Auth\\Auth\\Auth.csproj",
+              "RelativeDocumentMoniker": "Auth\\Auth.csproj",
+              "ToolTip": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\Auth\\Auth\\Auth.csproj",
+              "RelativeToolTip": "Auth\\Auth.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-13T18:35:28.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HttpMessage.cs",
+              "DocumentMoniker": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\Auth\\Auth\\Utils\\HttpMessage.cs",
+              "RelativeDocumentMoniker": "Auth\\Utils\\HttpMessage.cs",
+              "ToolTip": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\Auth\\Auth\\Utils\\HttpMessage.cs",
+              "RelativeToolTip": "Auth\\Utils\\HttpMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T17:33:56.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HttpResponseError.cs",
+              "DocumentMoniker": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\Auth\\Auth\\Utils\\HttpResponseError.cs",
+              "RelativeDocumentMoniker": "Auth\\Utils\\HttpResponseError.cs",
+              "ToolTip": "C:\\Users\\lara\\OneDrive\\Escritorio\\programacion4\\Programacion4\\back\\Auth\\Auth\\Utils\\HttpResponseError.cs",
+              "RelativeToolTip": "Auth\\Utils\\HttpResponseError.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-13T17:29:30.517Z"
             }
           ]
         }

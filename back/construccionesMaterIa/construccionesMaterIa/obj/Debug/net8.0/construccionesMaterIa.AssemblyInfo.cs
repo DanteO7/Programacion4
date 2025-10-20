@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("construccionesMaterIa")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0820ff8922feb32f1234021ce912dddb7fafca53")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2607f9e5799cd97e7d3b96a6e9a791ad8e11402")]
 [assembly: System.Reflection.AssemblyProductAttribute("construccionesMaterIa")]
 [assembly: System.Reflection.AssemblyTitleAttribute("construccionesMaterIa")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

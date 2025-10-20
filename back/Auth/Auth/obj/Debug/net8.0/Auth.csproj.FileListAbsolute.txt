@@ -171,3 +171,5 @@ C:\Users\lara\OneDrive\Escritorio\programacion4\Programacion4\back\Auth\Auth\obj
 C:\Users\lara\OneDrive\Escritorio\programacion4\Programacion4\back\Auth\Auth\obj\Debug\net8.0\Auth.pdb
 C:\Users\lara\OneDrive\Escritorio\programacion4\Programacion4\back\Auth\Auth\obj\Debug\net8.0\Auth.genruntimeconfig.cache
 C:\Users\lara\OneDrive\Escritorio\programacion4\Programacion4\back\Auth\Auth\obj\Debug\net8.0\ref\Auth.dll
+C:\Users\lara\OneDrive\Escritorio\programacion4\Programacion4\back\Auth\Auth\bin\Debug\net8.0\BCrypt.Net-Core.dll
+C:\Users\lara\OneDrive\Escritorio\programacion4\Programacion4\back\Auth\Auth\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
