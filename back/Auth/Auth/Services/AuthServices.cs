@@ -1,6 +1,9 @@
 ﻿using Auth.Models.User;
 using Auth.Models.User.DTO;
 using Auth.Utils;
+using AutoMapper;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Net;
@@ -12,33 +15,40 @@ namespace Auth.Services
     public class AuthServices
     {
         private readonly UserServices _userServices;
-        private readonly IEncoderServices _encoder;
-        private readonly IConfiguration _configuration;
+        private readonly IEncoderServices _encoderServices;
+        private readonly IMapper _mapper;
+        private readonly IConfiguration _config;
         internal readonly string _secret;
-        public AuthServices(UserServices userServices, IEncoderServices encoder, IConfiguration configuration)
+
+        public AuthServices(UserServices userServices, IEncoderServices encoderServices, IConfiguration config, IMapper mapper)
         {
             _userServices = userServices;
-            _encoder = encoder;
-            _configuration = configuration;
-            _secret = _configuration.GetSection("Secrets:JWT")?.Value?.ToString() ?? string.Empty;
+            _encoderServices = encoderServices;
+            _config = config;
+            _secret = _config.GetSection("Secrets:JWT")?.Value?.ToString() ?? string.Empty;
+            _mapper = mapper;
         }
 
-        async public Task<User> Register(RegisterDTO register)
+        async public Task<List<UserWithoutPassDTO>> GetUsers()
+        {
+            return await _userServices.GetAll();
+        }
+
+        async public Task<UserWithoutPassDTO> Register(RegisterDTO register)
         {
             var user = await _userServices.GetOneByEmailOrUsername(register.Email, register.Username);
-            if(user != null)
+            if (user != null)
             {
-                throw new HttpResponseError(HttpStatusCode.BadRequest, "User with email or username already exists");
+                throw new HttpResponseError(HttpStatusCode.BadRequest, "User already exists");
             }
 
-            var createdUser = await _userServices.CreateOne(register);
-
-            return createdUser;
+            var created = await _userServices.CreateOne(register);
+            return created;
         }
 
-        async public Task<LoginResponseDTO> Login(LoginDTO login)
+        async public Task<LoginResponseDTO> Login(LoginDTO login, HttpContext context)
         {
-            var datum = login.EmailOrUsername;
+            string datum = login.EmailOrUsername;
             var user = await _userServices.GetOneByEmailOrUsername(datum, datum);
 
             if (user == null)
@@ -46,27 +56,80 @@ namespace Auth.Services
                 throw new HttpResponseError(HttpStatusCode.BadRequest, "Invalid credentials");
             }
 
-            bool IsMatch = _encoder.Verify(login.Password, user.Password);
+            bool IsMatch = _encoderServices.Verify(login.Password, user.Password);
 
             if (!IsMatch)
             {
                 throw new HttpResponseError(HttpStatusCode.BadRequest, "Invalid credentials");
             }
-            
-            string token = GenerateJWT(user);
 
-            return new LoginResponseDTO { Token = token };
+            await SetCookie(user, context);
+
+            string token = GenerateJwt(user);
+
+            return new LoginResponseDTO
+            {
+                Token = token,
+                User = _mapper.Map<UserWithoutPassDTO>(user)
+            };
         }
 
-        public string GenerateJWT(User user)
+        async public Task Logout(HttpContext context)
+        {
+            await context.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+        }
+
+        async public Task SetCookie(User user, HttpContext context)
+        {
+            var claims = new List<Claim>
+            {
+                new Claim("id", user.Id.ToString())
+            };
+
+            if (user.Roles != null || user.Roles?.Count > 0)
+            {
+                foreach (var role in user.Roles)
+                {
+                    var claim = new Claim(ClaimTypes.Role, role.Name);
+                    claims.Add(claim);
+                }
+            }
+
+            var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+            var principal = new ClaimsPrincipal(identity);
+
+            await context.SignInAsync(
+                CookieAuthenticationDefaults.AuthenticationScheme,
+                principal,
+                new AuthenticationProperties
+                {
+                    IsPersistent = true,
+                    ExpiresUtc = DateTime.UtcNow.AddDays(1),
+                }
+            );
+        }
+
+        public string GenerateJwt(User user)
         {
             var key = Encoding.UTF8.GetBytes(_secret);
-            var symmertricKey = new SymmetricSecurityKey(key);
+            var symmetricKey = new SymmetricSecurityKey(key);
 
-            var credentials = new SigningCredentials(symmertricKey, SecurityAlgorithms.HmacSha256Signature);
+            var credentials = new SigningCredentials(
+                symmetricKey,
+                SecurityAlgorithms.HmacSha256Signature
+            );
 
             var claims = new ClaimsIdentity();
             claims.AddClaim(new Claim("id", user.Id.ToString()));
+
+            if (user.Roles != null || user.Roles?.Count > 0)
+            {
+                foreach (var role in user.Roles)
+                {
+                    var claim = new Claim(ClaimTypes.Role, role.Name);
+                    claims.AddClaim(claim);
+                }
+            }
 
             var tokenDescriptor = new SecurityTokenDescriptor()
             {
@@ -78,7 +141,6 @@ namespace Auth.Services
             var tokenHandler = new JwtSecurityTokenHandler();
             var tokenConfig = tokenHandler.CreateToken(tokenDescriptor);
             string token = tokenHandler.WriteToken(tokenConfig);
-
             return token;
         }
     }

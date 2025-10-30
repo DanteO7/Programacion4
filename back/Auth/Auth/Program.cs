@@ -2,6 +2,7 @@ using Auth.Config;
 using Auth.Repositories;
 using Auth.Services;
 using Auth.Utils.Filters;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -41,6 +42,7 @@ builder.Services.AddSwaggerGen(options =>
 builder.Services.AddScoped<UserServices>();
 builder.Services.AddScoped<AuthServices>();
 builder.Services.AddScoped<IEncoderServices,EncoderServices>();
+builder.Services.AddScoped<RoleServices>();
 
 // Repositories
 builder.Services.AddScoped<IUserRepository, UserRepository>();
@@ -58,7 +60,13 @@ builder.Services.AddDbContext<ApplicationDbContext>(opts =>
 // JWT
 var secret = builder.Configuration.GetSection("Secrets:JWT")?.Value?.ToString() ?? string.Empty;
 var key = Encoding.UTF8.GetBytes(secret);
-builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(opts =>
+builder.Services.AddAuthentication(opts =>
+{
+    opts.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+    opts.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    opts.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+})
+    .AddJwtBearer(opts =>
 {
     opts.SaveToken = true;
     opts.TokenValidationParameters = new TokenValidationParameters
@@ -69,9 +77,24 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJw
         ValidateAudience = false,
         ValidateLifetime = true,
     };
+}).AddCookie(opts =>
+{
+    opts.Cookie.HttpOnly = true;
+    opts.Cookie.SameSite = SameSiteMode.None;
+    opts.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+    opts.ExpireTimeSpan = TimeSpan.FromDays(1);
 });
 
 var app = builder.Build();
+
+app.UseCors(opts =>
+{
+   opts.AllowAnyOrigin()
+        .AllowAnyHeader()
+        .AllowAnyMethod()
+        .AllowCredentials()
+        .WithOrigins("https://localhost:7097");
+});
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

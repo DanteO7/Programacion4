@@ -15,6 +15,13 @@ namespace Auth.Config
 
             // Auth
             CreateMap<RegisterDTO, User>();
+
+            CreateMap<User, UserWithoutPassDTO>().ForMember(
+                dest => dest.Roles,
+                opt => opt.MapFrom(
+                    src => src.Roles.Select(r => r.Name).ToList()
+                )
+            );
         }
     }
 }

@@ -10,4 +10,10 @@ namespace Auth.Models.Role
         public int Id { get; set; }
         public string Name { get; set; } = null!;
     }
+
+    public class UserRoles
+    {
+        public int UserId { get; set; }
+        public int RoleId { get; set; }
+    }
 }
